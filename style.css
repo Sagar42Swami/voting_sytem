@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb); /* violet to pink gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 400px;
+    text-align: center;
+  }
+  h1{
+    margin-right: 40px;
+    background-color: rgb(28, 207, 220);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 12px;
+    width: 85%;
+    margin: 12px 0;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #a18cd1;
+    box-shadow: 0 0 8px rgba(161, 140, 209, 0.4);
+  }
+  
+  button {
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 16px;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #9b7dc9, #f7bde5);
+    transform: scale(1.05);
+  }
+  
+  a {
+    color: #6c5ce7;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .results {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
