@@ -43,14 +43,23 @@
 
       <div class="results">
         <h3>Results:</h3>
-        <p>Option A: <span id="optionA">0</span> votes</p>
-        <p>Option B: <span id="optionB">0</span> votes</p>
-        <p>Option C: <span id="optionC">0</span> votes</p>
+        <p>Option A: <span id="result-Option A">0</span> votes</p>
+        <p>Option B: <span id="result-Option B">0</span> votes</p>
+        <p>Option C: <span id="result-Option C">0</span> votes</p>
+        
       </div>
     </div>
 
   </div>
 
-  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script>
+  const supabaseUrl = 'https://ljhwyycwuebjmtkfyeat.supabase.co';
+  const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxqaHd5eWN3dWViam10a2Z5ZWF0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU0ODMxMDQsImV4cCI6MjA2MTA1OTEwNH0.pUHyZ0jnAXRrLqcXdh7jbWAR_kuq_ISBlKQtpmU2aqo';
+  const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+</script>
+<script src="script.js"></script>
+
+
 </body>
 </html>
